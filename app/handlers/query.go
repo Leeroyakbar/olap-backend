@@ -9,9 +9,6 @@ import (
 	"github.com/xdbsoft/olap"
 )
 
-//Satu lagi, gimana posisinya kalau lokasi pulau nyari waktunya itu berdasarkan kuartal
-//Sebelum itu kita bikin parameternya lebih enak dipandang dulu
-// Bentar masih bingun buatr bikinnya
 
 func GetHeader(ctx *fiber.Ctx) error {
 	var cube olap.Cube
